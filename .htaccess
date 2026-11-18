@@ -1,8 +1,16 @@
-# FreelanceNow site v12: static pages only. Security headers, HTTPS only, no directory listing.
+# FreelanceNow site v13: static pages only. Security headers, HTTPS only, no directory listing.
 Options -Indexes -MultiViews +SymLinksIfOwnerMatch
 ServerSignature Off
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
+
+# Old WordPress pages of freelancenow.io (before 2026): send people to the right place
+RedirectMatch 301 ^/contact/?$ https://freelancenow.io/support.html
+RedirectMatch 301 ^/about(-us)?/?$ https://freelancenow.io/how-it-works.html
+RedirectMatch 301 ^/sitemap_index\.xml$ https://freelancenow.io/sitemap.xml
+RedirectMatch 410 ^/(em_portfolios|em_team|author|category|tag|feed|comments|wp-content|wp-admin|wp-includes|wp-json)(/.*)?$
+RedirectMatch 410 ^/(wp-login\.php|xmlrpc\.php|wp-cron\.php)$
+RedirectMatch 410 ^/20[0-9][0-9]/
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -17,7 +25,7 @@ RewriteRule \.(php|phtml|php\d|phar|cgi|pl|py|sh|asp|aspx|jsp|sql|bak|zip|tar|gz
 </IfModule>
 
 <IfModule mod_headers.c>
-Header always set Content-Security-Policy "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests; frame-ancestors 'none'"
+Header always set Content-Security-Policy "default-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; font-src 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; manifest-src 'self'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests; frame-ancestors 'none'"
 Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 Header always set X-Content-Type-Options "nosniff"
 Header always set X-Frame-Options "DENY"

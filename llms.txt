@@ -1,0 +1,38 @@
+# FreelanceNow
+
+> Need a guy? FreelanceNow is a free app (iPhone and Android) that shows people near you who are available to work right now, for any job: plumber, electrician, handyman, cleaning, babysitter, movers, painter, carpenter, locksmith, photographer, driver, waiters and event staff. You ask, the first person who says yes calls you, and you agree on the price directly. No fee, no commission, for clients and for workers. Available worldwide in English, Spanish, French and Arabic.
+
+## Main pages
+- [Home](https://freelancenow.io/)
+- [How it works](https://freelancenow.io/how-it-works.html)
+- [Work today (for workers)](https://freelancenow.io/work-today.html)
+- [Free alternative to service apps](https://freelancenow.io/free-alternative.html)
+- [All jobs](https://freelancenow.io/services.html)
+
+## Jobs
+- [Plumber](https://freelancenow.io/plumber.html)
+- [Electrician](https://freelancenow.io/electrician.html)
+- [Handyman](https://freelancenow.io/handyman.html)
+- [House cleaner](https://freelancenow.io/house-cleaning.html)
+- [Babysitter](https://freelancenow.io/babysitter.html)
+- [Movers](https://freelancenow.io/movers.html)
+- [Painter](https://freelancenow.io/painter.html)
+- [Carpenter](https://freelancenow.io/carpenter.html)
+- [Locksmith](https://freelancenow.io/locksmith.html)
+- [Photographer](https://freelancenow.io/photographer.html)
+- [Driver](https://freelancenow.io/driver.html)
+- [Waiters and event staff](https://freelancenow.io/event-staff.html)
+
+## Languages
+- [Español](https://freelancenow.io/es/)
+- [Français](https://freelancenow.io/fr/)
+- [العربية](https://freelancenow.io/ar/)
+
+## App
+- [App Store](https://apps.apple.com/app/id6471960727)
+- [Google Play](https://play.google.com/store/apps/details?id=com.rn.freelancerapp)
+
+## Legal
+- [Privacy](https://freelancenow.io/privacy.html)
+- [Terms](https://freelancenow.io/terms.html)
+- [Support](https://freelancenow.io/support.html)
